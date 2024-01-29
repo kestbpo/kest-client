@@ -1,14 +1,14 @@
 import React from 'react';
 import axios from 'axios';
 import Layout from './layout';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 const baseURL = "https://kest-server.onrender.com";
 
 function App() {
   const [post, setPost] = useState(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     axios.get(baseURL).then((response) => {
       setPost(response.data);
     });
