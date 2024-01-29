@@ -36,7 +36,7 @@ const MyForm = () => {
   const handleSubmit = event => {
     event.preventDefault();
     axios
-      .post('/send', { ...formData })
+      .post('https://kest-server.onrender.com/send', { ...formData })
       .then(response => {
         setResult(response.data); 
         setFormData({
