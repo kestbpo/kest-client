@@ -21,7 +21,7 @@ function manage(){
        </Card> 
       </Col>
       <Col ><Card>
-        <h4 className="text-dark pt-2"> Thanuja Pilla</h4>
+        <h4 className="text-dark pt-2"> Thanuja</h4>
         <p>Operational Manager US</p>
         <p> <FontAwesomeIcon icon={faPhone}   /> 2143069588</p>
       
