@@ -12,7 +12,7 @@ function manage(){
     <Row>      
       <Col><h3 className="text-white pt-5">management Team</h3></Col>
       <Col>
-       <Card> <h4 className="text-dark pt-2"> Mohan Velaga</h4>
+       <Card> <h4 className="text-dark pt-2"> MOHAN</h4>
         <p>Operational Manager India</p>
         
        <p> <FontAwesomeIcon icon={faPhone}/> +91 8309529651</p>
@@ -21,14 +21,21 @@ function manage(){
        </Card> 
       </Col>
       <Col ><Card>
-        <h4 className="text-dark pt-2"> Thanuja</h4>
+        <h4 className="text-dark pt-2"> THANUJA PILLA</h4>
         <p>Operational Manager US</p>
-        <p> <FontAwesomeIcon icon={faPhone}   /> 2143069588</p>
+        <p> <FontAwesomeIcon icon={faPhone}   /> +1 (214) 306-9588</p>
       
-       <p > <FontAwesomeIcon icon={faEnvelope}   />  mohan@kestbpo.com </p>
+       <p > <FontAwesomeIcon icon={faEnvelope}   />  Thanuja@kestbpo.com </p>
        </Card>
       </Col>
+      <Col ><Card>
+        <h4 className="text-dark pt-2">KALPANA PILLA</h4>
+        <p>Operational Manager Canada</p>
+        <p> <FontAwesomeIcon icon={faPhone}   />+1 (437) 967-2306 </p>
       
+       <p > <FontAwesomeIcon icon={faEnvelope}   />  Kalpana@kestbpo.com </p>
+       </Card>
+      </Col>
     </Row>
 </div>
 
