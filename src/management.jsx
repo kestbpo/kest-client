@@ -10,7 +10,7 @@ function manage(){
 <div id="manage" className="pb-5 pt-5 pe-5 bg-black ">
    
     <Row>      
-      <Col><h3 className="text-white pt-5">management Team</h3></Col>
+      <Col><h3 className="text-white pt-5">Management Team</h3></Col>
       <Col>
        <Card> <h4 className="text-dark pt-2"> MOHAN</h4>
         <p>Operational Manager India</p>
@@ -29,11 +29,11 @@ function manage(){
        </Card>
       </Col>
       <Col ><Card>
-        <h4 className="text-dark pt-2">KALPANA PILLA</h4>
+        <h4 className="text-dark pt-2">Dr.KALPANA PILLA</h4>
         <p>Operational Manager Canada</p>
         <p> <FontAwesomeIcon icon={faPhone}   />+1 (437) 967-2306 </p>
       
-       <p > <FontAwesomeIcon icon={faEnvelope}   />  Kalpana@kestbpo.com </p>
+       <p > <FontAwesomeIcon icon={faEnvelope}   />Dr.Kalpana@kestbpo.com </p>
        </Card>
       </Col>
     </Row>
