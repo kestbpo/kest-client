@@ -37,7 +37,7 @@ return(
          Contact Us:
             <li  className='  fs-6 text-white' >India <p>20-2-158, Karri vari street,<br/>Gavarapalem, Anakapalli, Andhra Pradesh,India,531002</p></li>
             <li  className='  fs-6 text-white'>US<p>Dallas, Texas, United States</p></li>
-            <li  className='  fs-6 text-white'>Canada<p> 115-200 Gateway BLVD North York M3C 1B5 Toronto,<br/>Ontario, Canada</p></li>
+            <li  className='  fs-6 text-white'>Canada<p> 200 Gateway BLVD North York M3C 1B5 Toronto,<br/>Ontario, Canada</p></li>
          </ul>
          </div>
          <div className='col'>
