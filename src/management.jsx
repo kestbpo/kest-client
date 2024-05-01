@@ -21,14 +21,6 @@ function manage(){
        </Card> 
       </Col>
       <Col ><Card>
-        <h4 className="text-dark pt-2"> THANUJA PILLA</h4>
-        <p>Operational Manager US</p>
-        <p> <FontAwesomeIcon icon={faPhone}   /> +1 (214) 306-9588</p>
-      
-       <p > <FontAwesomeIcon icon={faEnvelope}   />  Thanuja@kestbpo.com </p>
-       </Card>
-      </Col>
-      <Col ><Card>
         <h4 className="text-dark pt-2">Dr.KALPANA PILLA</h4>
         <p>Operational Manager Canada</p>
         <p> <FontAwesomeIcon icon={faPhone}   />+1 (437) 967-2306 </p>
