@@ -1,26 +1,26 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './footer';
 import Headers from './header';
-import Nav from './nav';
+import NavMobile from './nav(mobile)';
 import Home from './home'
 import './App.css';
-function App() {
+
+function Layout() {
     return (
-      
-      <div className="App">
-         <header className="App-header">
-           <div> <Headers/></div> 
+    <>
+      <div className='App'>
+         <header >
+           
          </header>
-         <nav>
-           <Nav/>
+         <nav id="home">
+           <NavMobile/>
          </nav>
          <Home/>
-         <footer className="footer">
-           <Footer/>
-         </footer>
+         <Footer/>
       </div>
-     
+      <div> <Headers/></div> 
+     </>
     );
   }
   
-  export default App;
+  export default Layout;

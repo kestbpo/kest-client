@@ -1,10 +1,5 @@
 /* Add your styling as needed */
-.section {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
+
 .App{display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -46,15 +41,7 @@ nav .active a {
   color: #007bff;
   font-weight: bold;
 }
-
-.App-header{
-  background-color: #333;
-}
-.footer{
-  padding: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+footer{
   background-color:#333;
 }
 .social-container {
@@ -109,7 +96,7 @@ input[type=text], select {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid black;
-  border-radius: 0px;
+  border-radius: 4px;
   box-sizing: border-box;
 }
 input[type=email], select {
@@ -118,17 +105,31 @@ input[type=email], select {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid black;
-  border-radius:0px;
+  border-radius:4px;
   box-sizing: border-box;
 }
 
 button[type=submit] {
   width: 30%;
-  background-color: blue;
+  background-color:cornflowerblue;
   color: white;
   padding: 8px 8px;
   margin: 8px 0;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
+  display:inline-flex;
+  padding-left: 2px;
+  text-align: center;
+  
+}
+form{
+  background-color:lightyellow;
+}
+.card{display: flex;
+overflow: hidden;
+
+}
+ul{
+  list-style-type: none;
 }

@@ -1,0 +1,36 @@
+import Row from "react-bootstrap/esm/Row";
+import Card from "react-bootstrap/esm/Card";
+import Col from "react-bootstrap/esm/Col";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+
+function manage1(){
+ return(
+<div id="manage" className="pb-5 pt-5 pe-5 bg-black" style={{display:'flex'}}>
+   
+    <Row>      
+      <Col><h3 className="text-white pt-5">Management Team</h3></Col>
+      <Col>
+        <Row className="pb-2">
+          <Card> <h4 className="text-dark pt-2"> MOHAN</h4>
+                 <p>Operational Manager India</p>
+                 <p> <FontAwesomeIcon icon={faPhone}/> +91 8309529651</p>
+                 <p> <FontAwesomeIcon icon={faEnvelope} />  mohan@kestbpo.com </p> 
+          </Card> 
+        </Row>
+        <Row className="pt-2">
+          <Card>
+             <h4 className="text-dark pt-2">Dr.KALPANA PILLA</h4>
+             <p>Operational Manager Canada</p>
+             <p> <FontAwesomeIcon icon={faPhone}   />+1 (437) 967-2306 </p>
+             <p > <FontAwesomeIcon icon={faEnvelope}   />Dr.Kalpana@kestbpo.com </p>
+         </Card>
+        </Row>
+      </Col>
+    </Row>
+</div>
+
+ )
+};
+ export default manage1;

@@ -4,7 +4,7 @@ import Article from "./article";
 import Manage from "./management";
 import MyForm from "./form"
 
-    function App() {
+    function home() {
         return (
           <div>
             
@@ -21,5 +21,4 @@ import MyForm from "./form"
         );
       }
       
-      export default App;
-      
+      export default home;

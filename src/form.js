@@ -58,14 +58,14 @@ const MyForm = () => {
   
 
   return (
-  <div id="contact" className='bg-light' >
+  <div id="contact" className='form' >
      <Image src={bac1}width={'100%'} height={100}/>
      
       <Row className='bg-white pb-5 ps-2'>
       <Col >
         <Image src={Eac1} width={'100%'} height={450} />
       </Col>
-      <Col className='bg-white pe-4 '>
+      <Col className=' pe-4 '>
         <Card  className='pt-2 pb-2'>
     <form onSubmit={handleSubmit}>
       <label className='pt-3 pe-2'>

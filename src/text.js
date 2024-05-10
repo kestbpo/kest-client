@@ -1,4 +1,4 @@
- const Text1 = () => {
+const Text1 = () => {
     return(
       <p  className="text-xxl-start p-5" >Welcome to Kest BPO, a new start-up organization of cutting-edge backend solutions for the insurance industry from offshore.<br/>
        With a focus on efficiency, innovation, and seamless integration, we empower insurance companies to optimize their operations and deliver unparalleled services to their clients.
